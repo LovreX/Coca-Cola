@@ -1,0 +1,404 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+       .video-gallery li video {
+        height: 300px;
+    }
+           .product-title{
+        margin: 3px 0;
+        font-size: 35px
+    }
+    .title-product{
+        margin: 3px 0;
+        font-size: 25px
+    }
+    .left-centered p{
+        text-align: center;
+        margin: 10px 0;
+    }
+    table{
+       margin: auto;
+        margin-bottom: 10px;
+       
+    }
+    
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hero-text {
+        position: absolute;
+        width: 230px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+      .hero-text h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-right: 17px;
+    }
+      .video-gallery li video {
+        height: 250px;
+    }
+  .news-gallery img {
+        height: auto;
+      text-align: center;
+    }
+     .news p {
+        line-height: 30px
+    }
+        .product-title{
+        margin: 3px 0;
+        font-size: 35px
+    }
+    .title-product{
+        margin: 3px 0;
+        font-size: 25px
+    }
+    .left-centered p{
+        text-align: center;
+        margin: 10px 0;
+    }
+    table{
+       margin: auto;
+        margin-bottom: 10px;
+       
+    }
+    
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .hero-text {
+        position: absolute;
+        width: 230px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-right: 17px;
+    }
+
+    .main-nav li {
+        font-size: 18px;
+    }
+
+    .figure-about img {
+        height: 250px;
+    }
+
+    .figure-about {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .Footer-nav {
+        font-size: 20px;
+    }
+
+    .Social-links {
+        font-size: 15px;
+    }
+
+    .row p {
+        font-size: 20px;
+    }
+
+    .news-gallery img {
+        height: auto
+    }
+
+    .news h2 {
+        font-size: 20px
+    }
+
+    .news p {
+        line-height: 30px
+    }
+
+    .video-gallery li video {
+        height: 210px;
+    }
+
+    .gallery-showcase li figure img {
+        height: 200px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+        .product-title{
+        margin: 3px 0;
+        font-size: 35px
+    }
+    .title-product{
+        margin: 3px 0;
+        font-size: 20px;
+    }
+    .left-centered p{
+        text-align: center;
+        margin: 10px 0;
+    }
+    table{
+       margin: auto;
+        margin-bottom: 10px;
+       
+    }
+    
+  
+
+}
+
+/* 
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        font-size: 10px;
+    }
+
+    .hero-text {
+        position: absolute;
+        width: 230px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    a {
+        margin-top: 5px;
+    }
+
+    .logo {
+        width: 95px;
+        height: auto;
+    }
+
+    .main-nav li {
+        margin: 25px;
+    }
+
+    .figure-about {
+        margin-bottom: 10px;
+    }
+
+    .figure-about img {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .hero-text h1 {
+        text-align: center;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+
+    footer {
+        padding: 5px;
+        height: auto;
+
+    }
+
+    .row p {
+        font-size: 15px;
+
+    }
+
+    iframe {
+        height: auto;
+    }
+
+    .gallery-showcase li {
+        width: auto;
+        height: auto;
+    }
+
+    .video-gallery li {
+        width: auto;
+        height: auto;
+    }
+
+    .news-gallery img {
+        height: 150px;
+    }
+
+    .news-1 p {
+        line-height: 25px
+    }
+
+    .news h2 {
+        font-size: 10px
+    }
+
+    .news p {
+        line-height: 18px
+    }
+    .product-title{
+        margin: 3px 0;
+        font-size: 15px
+    }
+    .title-product{
+        margin: 3px 0;
+        font-size: 10px
+    }
+    .left-centered p{
+        text-align: center;
+    }
+    table{
+       margin: auto;
+    }
+    
+  
+    
+}
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+        body {
+            font-size: 7px;
+        }
+
+        .logo {
+            width: 40px;
+            height: auto;
+
+        }
+
+        .main-nav li {
+            margin: 15px;
+            font-size: 7px
+        }
+
+        .hero-text {
+            position: absolute;
+            width: 230px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hero-text a:last-child {
+            margin-top: 15px;
+        }
+
+      
+        .row p {
+            font-size: 12px;
+
+        }
+
+        footer {
+            padding: 5px;
+
+
+        }
+
+        .Footer-nav li {
+            margin: 3px;
+            padding: 0;
+
+        }
+
+        .figure-about {
+            margin-left: 120px;
+            margin-bottom: 15px;
+        }
+
+        .figure-about img {
+            width: 250;
+            height: auto;
+        }
+
+        .text p {
+            clear: both;
+            line-height: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-left: 30px;
+            margin: 15px 0;
+        }
+
+        iframe {
+            height: 200px;
+        }
+
+        .gallery-showcase li {
+            width: auto
+        }
+
+        .video-gallery li {
+            width: auto;
+        }
+
+        .news h2 {
+            font-size: 10px
+        }
+
+        .news p {
+            line-height: 15px
+        }
+
+        .news img {
+            margin: 30px 0
+        }
+     .news-gallery img {
+        height: auto;
+    }
+    .news-1 p {
+        line-height: 25px
+    }
+    .product-title{
+        margin: 3px 0;
+        font-size: 15px
+    }
+    .title-product{
+        margin: 3px 0;
+        font-size: 10px
+    }
+    .left-centered p{
+        text-align: center;
+    }
+    table{
+       margin: auto;
+    }
+    
+  
+
+}
